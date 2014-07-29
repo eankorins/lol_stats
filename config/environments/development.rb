@@ -31,7 +31,9 @@ Rails.application.configure do
   # Checks for improperly declared sprockets dependencies.
   # Raises helpful error messages.
   config.assets.raise_runtime_errors = true
-
+  LolApi.configure do |config|
+    config.api_key = '1cef001f-554c-4750-85da-7404492b8b22'
+  end
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
 end

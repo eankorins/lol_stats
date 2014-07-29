@@ -1,0 +1,843 @@
+{
+   "tags": ["Assassin"],
+   "stats": {
+      "attackrange": 125,
+      "mpperlevel": 40,
+      "mp": 230,
+      "attackdamage": 51.7,
+      "hp": 441,
+      "hpperlevel": 84,
+      "attackdamageperlevel": 3.5,
+      "armor": 19,
+      "mpregenperlevel": 0.45,
+      "hpregen": 7.45,
+      "critperlevel": 0,
+      "spellblockperlevel": 1.25,
+      "mpregen": 6.4,
+      "attackspeedperlevel": 3,
+      "spellblock": 30,
+      "movespeed": 350,
+      "attackspeedoffset": -0.1,
+      "crit": 0,
+      "hpregenperlevel": 0.55,
+      "armorperlevel": 3.5
+   },
+   "enemytips": [
+      "If Shaco is doing well early-game, it is worth the investment to buy Vision Wards.",
+      "If Shaco uses Deceive to enter a fight he won't be able to quickly use it again to get away. Work with your team to quickly focus him down."
+   ],
+   "recommended": [
+      {
+         "champion": "Shaco",
+         "title": "ShacoHA",
+         "priority": false,
+         "map": "12",
+         "blocks": [
+            {
+               "items": [
+                  {
+                     "id": 1001,
+                     "count": 1
+                  },
+                  {
+                     "id": 2003,
+                     "count": 2
+                  },
+                  {
+                     "id": 1056,
+                     "count": 2
+                  }
+               ],
+               "type": "starting"
+            },
+            {
+               "items": [
+                  {
+                     "id": 3020,
+                     "count": 1
+                  },
+                  {
+                     "id": 3089,
+                     "count": 1
+                  },
+                  {
+                     "id": 3128,
+                     "count": 1
+                  }
+               ],
+               "type": "essential"
+            },
+            {
+               "items": [
+                  {
+                     "id": 3100,
+                     "count": 1
+                  },
+                  {
+                     "id": 3135,
+                     "count": 1
+                  },
+                  {
+                     "id": 3151,
+                     "count": 1
+                  }
+               ],
+               "type": "offensive"
+            },
+            {
+               "items": [
+                  {
+                     "id": 3001,
+                     "count": 1
+                  },
+                  {
+                     "id": 3157,
+                     "count": 1
+                  },
+                  {
+                     "id": 3023,
+                     "count": 1
+                  }
+               ],
+               "type": "defensive"
+            },
+            {
+               "items": [
+                  {
+                     "id": 2003,
+                     "count": 1
+                  },
+                  {
+                     "id": 2004,
+                     "count": 1
+                  }
+               ],
+               "type": "Consumables"
+            }
+         ],
+         "type": "riot",
+         "mode": "ARAM"
+      },
+      {
+         "champion": "Shaco",
+         "title": "ShacoDM",
+         "priority": false,
+         "map": "8",
+         "blocks": [
+            {
+               "items": [
+                  {
+                     "id": 1001,
+                     "count": 1
+                  },
+                  {
+                     "id": 1052,
+                     "count": 2
+                  },
+                  {
+                     "id": 2003,
+                     "count": 3
+                  }
+               ],
+               "type": "starting"
+            },
+            {
+               "items": [
+                  {
+                     "id": 3090,
+                     "count": 1
+                  },
+                  {
+                     "id": 3117,
+                     "count": 1
+                  },
+                  {
+                     "id": 3187,
+                     "count": 1
+                  }
+               ],
+               "type": "essential"
+            },
+            {
+               "items": [
+                  {
+                     "id": 3135,
+                     "count": 1
+                  },
+                  {
+                     "id": 3188,
+                     "count": 1
+                  },
+                  {
+                     "id": 3100,
+                     "count": 1
+                  }
+               ],
+               "type": "offensive"
+            },
+            {
+               "items": [
+                  {
+                     "id": 3001,
+                     "count": 1
+                  },
+                  {
+                     "id": 3290,
+                     "count": 1
+                  }
+               ],
+               "type": "defensive"
+            },
+            {
+               "items": [
+                  {
+                     "id": 2003,
+                     "count": 1
+                  },
+                  {
+                     "id": 2004,
+                     "count": 1
+                  }
+               ],
+               "type": "Consumables"
+            }
+         ],
+         "type": "riot",
+         "mode": "ODIN"
+      },
+      {
+         "champion": "Shaco",
+         "title": "ShacoFIRSTBLOOD",
+         "priority": false,
+         "map": "12",
+         "blocks": [
+            {
+               "items": [
+                  {
+                     "id": 1074,
+                     "count": 1
+                  },
+                  {
+                     "id": 2003,
+                     "count": 1
+                  },
+                  {
+                     "id": 3342,
+                     "count": 1
+                  }
+               ],
+               "type": "starting"
+            },
+            {
+               "items": [
+                  {
+                     "id": 3006,
+                     "count": 1
+                  },
+                  {
+                     "id": 3093,
+                     "count": 1
+                  },
+                  {
+                     "id": 3044,
+                     "count": 1
+                  }
+               ],
+               "type": "essential"
+            },
+            {
+               "items": [
+                  {
+                     "id": 3142,
+                     "count": 1
+                  },
+                  {
+                     "id": 3031,
+                     "count": 1
+                  },
+                  {
+                     "id": 3078,
+                     "count": 1
+                  }
+               ],
+               "type": "offensive"
+            },
+            {
+               "items": [
+                  {
+                     "id": 3091,
+                     "count": 1
+                  },
+                  {
+                     "id": 3022,
+                     "count": 1
+                  },
+                  {
+                     "id": 3026,
+                     "count": 1
+                  }
+               ],
+               "type": "defensive"
+            },
+            {
+               "items": [
+                  {
+                     "id": 2003,
+                     "count": 1
+                  },
+                  {
+                     "id": 2044,
+                     "count": 1
+                  }
+               ],
+               "type": "Consumables"
+            }
+         ],
+         "type": "riot",
+         "mode": "FIRSTBLOOD"
+      },
+      {
+         "champion": "Shaco",
+         "title": "ShacoTT",
+         "priority": false,
+         "map": "10",
+         "blocks": [
+            {
+               "items": [
+                  {
+                     "id": 1001,
+                     "count": 1
+                  },
+                  {
+                     "id": 1052,
+                     "count": 1
+                  },
+                  {
+                     "id": 2003,
+                     "count": 1
+                  }
+               ],
+               "type": "starting"
+            },
+            {
+               "items": [
+                  {
+                     "id": 3020,
+                     "count": 1
+                  },
+                  {
+                     "id": 3090,
+                     "count": 1
+                  },
+                  {
+                     "id": 3187,
+                     "count": 1
+                  }
+               ],
+               "type": "essential"
+            },
+            {
+               "items": [
+                  {
+                     "id": 3135,
+                     "count": 1
+                  },
+                  {
+                     "id": 3188,
+                     "count": 1
+                  },
+                  {
+                     "id": 3100,
+                     "count": 1
+                  }
+               ],
+               "type": "offensive"
+            },
+            {
+               "items": [
+                  {
+                     "id": 3001,
+                     "count": 1
+                  },
+                  {
+                     "id": 3069,
+                     "count": 1
+                  }
+               ],
+               "type": "defensive"
+            },
+            {
+               "items": [
+                  {
+                     "id": 2003,
+                     "count": 1
+                  },
+                  {
+                     "id": 2004,
+                     "count": 1
+                  }
+               ],
+               "type": "Consumables"
+            }
+         ],
+         "type": "riot",
+         "mode": "CLASSIC"
+      }
+   ],
+   "image": {
+      "w": 48,
+      "full": "Shaco.png",
+      "sprite": "champion2.png",
+      "group": "champion",
+      "h": 48,
+      "y": 48,
+      "x": 336
+   },
+   "spells": [
+      {
+         "range": [
+            400,
+            400,
+            400,
+            400,
+            400
+         ],
+         "leveltip": {
+            "effect": [
+               "{{ e1 }}% -> {{ e1NL }}%",
+               "{{ cost }} -> {{ costnNL }}"
+            ],
+            "label": [
+               "Critical Strike Damage",
+               "Mana Cost"
+            ]
+         },
+         "resource": "{{ cost }} Mana",
+         "maxrank": 5,
+         "effectBurn": [
+            "",
+            "140/160/180/200/220",
+            "200",
+            "3.5",
+            "6"
+         ],
+         "image": {
+            "w": 48,
+            "full": "Deceive.png",
+            "sprite": "spell8.png",
+            "group": "spell",
+            "h": 48,
+            "y": 0,
+            "x": 240
+         },
+         "cooldown": [
+            0,
+            0,
+            0,
+            0,
+            0
+         ],
+         "cost": [
+            90,
+            80,
+            70,
+            60,
+            50
+         ],
+         "sanitizedDescription": "Shaco becomes invisible and teleports to target location. His next attack is guaranteed to critically strike.",
+         "rangeBurn": "400",
+         "costType": "Mana",
+         "effect": [
+            [
+               140,
+               160,
+               180,
+               200,
+               220
+            ],
+            [
+               200,
+               200,
+               200,
+               200,
+               200
+            ],
+            [
+               3.5,
+               3.5,
+               3.5,
+               3.5,
+               3.5
+            ],
+            [
+               6,
+               6,
+               6,
+               6,
+               6
+            ]
+         ],
+         "cooldownBurn": "0",
+         "description": "Shaco becomes invisible and teleports to target location. His next attack is guaranteed to critically strike.",
+         "name": "Deceive",
+         "sanitizedTooltip": "Shaco teleports nearby and becomes invisible for 3.5 seconds. His next basic attack within the next 6 seconds will critically strike, dealing {{ e1 }}% damage (normal critical strikes deal {{ e2 }}% damage).",
+         "key": "Deceive",
+         "costBurn": "90/80/70/60/50",
+         "tooltip": "Shaco teleports nearby and becomes invisible for 3.5 seconds.<br><br>His next basic attack within the next 6 seconds will critically strike, dealing {{ e1 }}% damage (normal critical strikes deal {{ e2 }}% damage)."
+      },
+      {
+         "range": [
+            425,
+            425,
+            425,
+            425,
+            425
+         ],
+         "leveltip": {
+            "effect": [
+               "{{ e1 }} -> {{ e1NL }}",
+               "{{ e3 }} -> {{ e3NL }}",
+               "{{ cost }} -> {{ costnNL }}"
+            ],
+            "label": [
+               "Damage",
+               "Fear Length",
+               "Mana Cost"
+            ]
+         },
+         "resource": "{{ cost }} Mana",
+         "maxrank": 5,
+         "effectBurn": [
+            "",
+            "35/50/65/80/95",
+            "200/300/400/500/600",
+            "0.5/0.75/1/1.25/1.5",
+            "60"
+         ],
+         "image": {
+            "w": 48,
+            "full": "JackInTheBox.png",
+            "sprite": "spell8.png",
+            "group": "spell",
+            "h": 48,
+            "y": 0,
+            "x": 288
+         },
+         "cooldown": [
+            0,
+            0,
+            0,
+            0,
+            0
+         ],
+         "cost": [
+            50,
+            55,
+            60,
+            65,
+            70
+         ],
+         "vars": [{
+            "link": "spelldamage",
+            "coeff": [0.2],
+            "key": "a1"
+         }],
+         "sanitizedDescription": "Shaco creates an invisible, animated Jack-in-the-Box, which will fear, and then attack, nearby enemies.",
+         "rangeBurn": "425",
+         "costType": "Mana",
+         "effect": [
+            [
+               35,
+               50,
+               65,
+               80,
+               95
+            ],
+            [
+               200,
+               300,
+               400,
+               500,
+               600
+            ],
+            [
+               0.5,
+               0.75,
+               1,
+               1.25,
+               1.5
+            ],
+            [
+               60,
+               60,
+               60,
+               60,
+               60
+            ]
+         ],
+         "cooldownBurn": "0",
+         "description": "Shaco creates an invisible, animated Jack-in-the-Box, which will fear, and then attack, nearby enemies.",
+         "name": "Jack In The Box",
+         "sanitizedTooltip": "Shaco creates a Jack in the Box at the target location. It will become invisible after 2 seconds, and pop out when an enemy comes near, fearing nearby enemies for {{ e3 }} seconds and attacking them. Its attacks deal {{ e1 }} (+{{ a1 }}) magic damage and it lasts for {{ e4 }} seconds while invisible or 5 seconds while firing.",
+         "key": "JackInTheBox",
+         "costBurn": "50/55/60/65/70",
+         "tooltip": "Shaco creates a Jack in the Box at the target location. It will become invisible after 2 seconds, and pop out when an enemy comes near, fearing nearby enemies for {{ e3 }} seconds and attacking them.<br><br>Its attacks deal {{ e1 }} <span class=\"color99FF99\">(+{{ a1 }})<\/span> magic damage and it lasts for {{ e4 }} seconds while invisible or 5 seconds while firing. "
+      },
+      {
+         "range": [
+            625,
+            625,
+            625,
+            625,
+            625
+         ],
+         "leveltip": {
+            "effect": [
+               "{{ e1 }} -> {{ e1NL }}",
+               " {{ e2 }}% -> {{ e2NL }}%",
+               "{{ e3 }} -> {{ e3NL }}%",
+               "{{ cost }} -> {{ costnNL }}"
+            ],
+            "label": [
+               "Shiv Damage",
+               "Slow Percent",
+               "Miss Chance",
+               "Mana Cost"
+            ]
+         },
+         "resource": "{{ cost }} Mana",
+         "maxrank": 5,
+         "effectBurn": [
+            "",
+            "50/90/130/170/210",
+            "10/15/20/25/30",
+            "20/22.5/25/27.5/30",
+            "2",
+            "3"
+         ],
+         "image": {
+            "w": 48,
+            "full": "TwoShivPoison.png",
+            "sprite": "spell8.png",
+            "group": "spell",
+            "h": 48,
+            "y": 0,
+            "x": 336
+         },
+         "cooldown": [
+            8,
+            8,
+            8,
+            8,
+            8
+         ],
+         "cost": [
+            50,
+            55,
+            60,
+            65,
+            70
+         ],
+         "vars": [
+            {
+               "link": "bonusattackdamage",
+               "coeff": [1],
+               "key": "f1"
+            },
+            {
+               "link": "spelldamage",
+               "coeff": [1],
+               "key": "a1"
+            }
+         ],
+         "sanitizedDescription": "Shaco's Shivs passively poison targets on hit, slowing them and applying a miss chance to minions. He can throw his Shivs to deal damage and poison the target.",
+         "rangeBurn": "625",
+         "costType": "Mana",
+         "effect": [
+            [
+               50,
+               90,
+               130,
+               170,
+               210
+            ],
+            [
+               10,
+               15,
+               20,
+               25,
+               30
+            ],
+            [
+               20,
+               22.5,
+               25,
+               27.5,
+               30
+            ],
+            [
+               2,
+               2,
+               2,
+               2,
+               2
+            ],
+            [
+               3,
+               3,
+               3,
+               3,
+               3
+            ]
+         ],
+         "cooldownBurn": "8",
+         "description": "Shaco's Shivs passively poison targets on hit, slowing them and applying a miss chance to minions. He can throw his Shivs to deal damage and poison the target.",
+         "name": "Two-Shiv Poison",
+         "sanitizedTooltip": "Passive: While Two-Shiv Poison is ready to cast, Shaco's basic attacks reduce the target's Movement Speed by {{ e2 }}% for {{ e4 }} seconds. Also reduces minions' chance to hit by {{ e3 }}% for {{ e4 }} seconds. Active: Deals {{ e1 }} (+{{ f1 }}) (+{{ a1 }}) magic damage to target enemy and reduces their Movement Speed by {{ e2 }}% for {{ e5 }} seconds.",
+         "key": "TwoShivPoison",
+         "costBurn": "50/55/60/65/70",
+         "tooltip": "<span class=\"colorFF9900\">Passive: <\/span>While Two-Shiv Poison is ready to cast, Shaco's basic attacks reduce the target's Movement Speed by {{ e2 }}% for {{ e4 }} seconds. Also reduces minions' chance to hit by {{ e3 }}% for {{ e4 }} seconds.<br><br><span class=\"colorFF9900\">Active: <\/span>Deals {{ e1 }} <span class=\"colorFF8C00\">(+{{ f1 }})<\/span> <span class=\"color99FF99\">(+{{ a1 }}) <\/span>magic damage to target enemy and reduces their Movement Speed by {{ e2 }}% for {{ e5 }} seconds."
+      },
+      {
+         "range": "self",
+         "leveltip": {
+            "effect": [
+               "{{ e1 }} -> {{ e1NL }}",
+               "{{ cooldown }} -> {{ cooldownnNL }}"
+            ],
+            "label": [
+               "On Death Damage",
+               "Cooldown"
+            ]
+         },
+         "resource": "{{ cost }} Mana",
+         "maxrank": 3,
+         "effectBurn": [
+            "",
+            "300/450/600",
+            "50",
+            "15"
+         ],
+         "image": {
+            "w": 48,
+            "full": "HallucinateFull.png",
+            "sprite": "spell8.png",
+            "group": "spell",
+            "h": 48,
+            "y": 0,
+            "x": 384
+         },
+         "cooldown": [
+            100,
+            90,
+            80
+         ],
+         "cost": [
+            100,
+            100,
+            100
+         ],
+         "vars": [{
+            "link": "spelldamage",
+            "coeff": [1],
+            "key": "a1"
+         }],
+         "sanitizedDescription": "Shaco creates an illusion of himself near him, which can attack nearby enemies. (Deals half damage to turrets.) Upon death, it explodes, dealing damage to nearby enemies.",
+         "rangeBurn": "self",
+         "costType": "Mana",
+         "effect": [
+            [
+               300,
+               450,
+               600
+            ],
+            [
+               50,
+               50,
+               50
+            ],
+            [
+               15,
+               15,
+               15
+            ]
+         ],
+         "cooldownBurn": "100/90/80",
+         "description": "Shaco creates an illusion of himself near him, which can attack nearby enemies. (Deals half damage to turrets.)  Upon death, it explodes, dealing damage to nearby enemies. ",
+         "name": "Hallucinate",
+         "sanitizedTooltip": "Shaco vanishes briefly and reappears with a clone that lasts up to 18 seconds. The clone deals 75% of Shaco's damage and receives {{ e2 }}% increased damage. On death, the clone detonates, dealing {{ e1 }} (+{{ a1 }}) magic damage to nearby enemies. The clone can be controlled by holding the alt key and using the right mouse button or by reactivating this ability.",
+         "key": "HallucinateFull",
+         "costBurn": "100",
+         "tooltip": "Shaco vanishes briefly and reappears with a clone that lasts up to 18 seconds. The clone deals 75% of Shaco's damage and receives {{ e2 }}% increased damage.<br><br>On death, the clone detonates, dealing {{ e1 }} <span class=\"color99FF99\">(+{{ a1 }})<\/span> magic damage to nearby enemies.<br><br><span class=\"color99FF99\">The clone can be controlled by holding the alt key and using the right mouse button or by reactivating this ability.<\/span>"
+      }
+   ],
+   "blurb": "Most would say that death isn't funny. It isn't, unless you're Shaco - then it's hysterical. He is Valoran's first fully functioning homicidal comic; he jests until someone dies, and then he laughs. The figure that has come to be known as the Demon ...",
+   "allytips": [
+      "Using Deceive over terrain can help you make a clean escape.",
+      "Try getting items with on-hit effects. These will also benefit your Hallucination clone.",
+      "Deceive's damage can be increased with increased Critical Damage effects like Infinity Edge."
+   ],
+   "info": {
+      "defense": 4,
+      "magic": 6,
+      "difficulty": 9,
+      "attack": 8
+   },
+   "lore": "Most would say that death isn't funny. It isn't, unless you're Shaco - then it's hysterical. He is Valoran's first fully functioning homicidal comic; he jests until someone dies, and then he laughs. The figure that has come to be known as the Demon Jester is an enigma. No one fully agrees from whence he came, and Shaco never offers any details on his own. A popular belief is that Shaco is not of Runeterra - that he is a thing summoned from a dark and twisted world. Still others believe that he is the demonic manifestation of humanity's dark urges and therefore cannot be reasoned with. The most plausible belief is that Shaco is an assassin for hire, left to his own lunatic devices until his services are needed. Shaco certainly has proven himself to be a cunning individual, evading authorities at every turn who might seek him for questioning for some horrendous, law-breaking atrocity. While such scuttlebutt might reassure the native inhabitants of Valoran, it seems unimaginable that such a malfeasant figure is allowed to remain at large.<br><br>Whatever the truth of his history might be, Shaco has joined the League of Legends for reasons only he knows. He is a terrifying figure, typically shunned by both his fellow champions and the media at large. Only the summoners in the Institute of War know why such a creature was allowed into the League, but most Runeterrans suspect it to be a means that allows the power that be to keep an eye on the ever-elusive Shaco. Unsurprisingly, this champion is popular in places where madness can openly reign, such as among the power-hungry summoners of Zaun and Noxus.<br><br>Whatever you do, don't tell him you missed the punch line.",
+   "id": 35,
+   "title": "the Demon Jester",
+   "name": "Shaco",
+   "passive": {
+      "sanitizedDescription": "Shaco deals 20% bonus damage when striking a unit from behind.",
+      "description": "Shaco deals 20% bonus damage when striking a unit from behind.",
+      "name": "Backstab",
+      "image": {
+         "w": 48,
+         "full": "Jester_CarefulStrikes.png",
+         "sprite": "passive2.png",
+         "group": "passive",
+         "h": 48,
+         "y": 48,
+         "x": 336
+      }
+   },
+   "partype": "Mana",
+   "key": "Shaco",
+   "skins": [
+      {
+         "id": 35000,
+         "num": 0,
+         "name": "default"
+      },
+      {
+         "id": 35001,
+         "num": 1,
+         "name": "Mad Hatter Shaco"
+      },
+      {
+         "id": 35002,
+         "num": 2,
+         "name": "Royal Shaco"
+      },
+      {
+         "id": 35003,
+         "num": 3,
+         "name": "Nutcracko"
+      },
+      {
+         "id": 35004,
+         "num": 4,
+         "name": "Workshop Shaco"
+      },
+      {
+         "id": 35005,
+         "num": 5,
+         "name": "Asylum Shaco"
+      },
+      {
+         "id": 35006,
+         "num": 6,
+         "name": "Masked Shaco"
+      }
+   ]
+}

@@ -1,0 +1,16 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Id:</strong>
+  <%= @champion.champ_id %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @champion.name %>
+</p>
+<table>
+	<%= render @stats %>
+</table>
+<%= link_to 'Edit', edit_champion_path(@champion) %> |
+<%= link_to 'Back', champions_path %>
