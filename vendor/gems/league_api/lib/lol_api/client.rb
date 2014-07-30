@@ -20,7 +20,6 @@ module LolApi
 
     		if response && (champions = response["data"])
     			champions.map do | champ |
-    				puts champ[1].to_json
     				Champion.new(champ[1])
     			end
     		end
