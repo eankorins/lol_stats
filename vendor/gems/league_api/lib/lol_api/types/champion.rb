@@ -86,7 +86,7 @@ module LolApi
 		# Champion partype(spell resource type)
 		#
 		# @return [String]
-		def partype
+		def par_type
 			raw_champion['partype']
 		end
 

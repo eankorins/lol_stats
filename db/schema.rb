@@ -11,13 +11,20 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140728131846) do
+ActiveRecord::Schema.define(version: 20140806091614) do
 
   create_table "champions", force: true do |t|
     t.integer  "champ_id"
     t.string   "name"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "title"
+    t.string   "key"
+    t.string   "enemy_tips"
+    t.string   "ally_tips"
+    t.string   "blurb"
+    t.string   "lore"
+    t.string   "par_type"
   end
 
   create_table "stats", force: true do |t|

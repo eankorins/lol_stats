@@ -12,45 +12,7 @@ class ChampionsController < ApplicationController
   def show
     @champion = Champion.find(params[:id])
     @stats = @champion.stats
-  end
 
-  # GET /champions/new
-  def new
-    @champion = Champion.new
-  end
-
-  # GET /champions/1/edit
-  def edit
-  end
-
-  # POST /champions
-  # POST /champions.json
-  def create
-    @champion = Champion.new(champion_params)
-
-    respond_to do |format|
-      if @champion.save
-        format.html { redirect_to @champion, notice: 'Champion was successfully created.' }
-        format.json { render :show, status: :created, location: @champion }
-      else
-        format.html { render :new }
-        format.json { render json: @champion.errors, status: :unprocessable_entity }
-      end
-    end
-  end
-
-  # PATCH/PUT /champions/1
-  # PATCH/PUT /champions/1.json
-  def update
-    respond_to do |format|
-      if @champion.update(champion_params)
-        format.html { redirect_to @champion, notice: 'Champion was successfully updated.' }
-        format.json { render :show, status: :ok, location: @champion }
-      else
-        format.html { render :edit }
-        format.json { render json: @champion.errors, status: :unprocessable_entity }
-      end
-    end
   end
 
   # DELETE /champions/1
@@ -71,6 +33,6 @@ class ChampionsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def champion_params
-      params.require(:champion).permit(:id, :name)
+      params.require(:champion).permit(:id, :name, :title, :key, :enemy_tips, :ally_tips, :blurp, :lore, :par_type)
     end
 end

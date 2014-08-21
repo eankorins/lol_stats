@@ -26,7 +26,7 @@ module LolApi
 		end
 
 		def cost
-			raw_spell['cost']
+			raw_spell['cost'].to_s
 		end
 
 		def cost_burn 

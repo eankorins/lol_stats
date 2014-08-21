@@ -18,7 +18,7 @@ describe LolApi::Champion do
 	it { should respond_to(:image) }
 	it { should respond_to(:info) }
 	it { should respond_to(:lore) }
-	it { should respond_to(:partype) }
+	it { should respond_to(:par_type) }
 	it { should respond_to(:passive) }
 	it { should respond_to(:recommended) }
 	it { should respond_to(:skins) }
@@ -37,7 +37,7 @@ describe LolApi::Champion do
 		its(:image) { should be_kind_of(LolApi::Image) }
 		its(:info) { should be_kind_of(LolApi::Info) }
 		its(:lore) { should include("It isn't, unless you're Shaco - then it's hysterical.")}
-		its(:partype) { should eq "Mana" }
+		its(:par_type) { should eq "Mana" }
 		its(:passive) { should be_kind_of(LolApi::Passive) }
 		its(:recommended) { should_not be_empty }
 		its(:skins) { should_not be_empty }
