@@ -2,6 +2,7 @@ require 'lol_api/configuration'
 require 'lol_api/connection'
 
 require 'lol_api/types/champion'
+require	'lol_api/types/summoner'
 module LolApi
 	class Client
 		attr_reader :config
@@ -29,9 +30,14 @@ module LolApi
 			Champion.new(response) if response["id"]
 		end
 
+		def summoner_by_name(name)
+			response = run_request(name, {}, 'summoner', 'euw', )
+
 		def run_request(method, options = {}, interface='static-data' , region = 'euw', id = '', version = 'v1.2')
 			url = "https://global.api.pvp.net/api/lol/#{interface}/#{region}/#{version}/#{method}/#{id}"
 			connection.request(:get, url, options.merge(api_key: config.api_key))
 		end
+
+
 	end
 end
