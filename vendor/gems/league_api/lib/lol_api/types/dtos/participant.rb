@@ -398,6 +398,14 @@ module LolApi
 			raw_data['zeroToTen']
 		end
 
+		def chart
+			[
+				:zero_to_ten => zero_to_ten, 
+				:ten_to_twenty => ten_to_twenty, 
+				:twenty_to_thirty => twenty_to_thirty, 
+				:thirty_to_end => thirty_to_end
+			]
+		end
 	end
 
 end

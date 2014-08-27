@@ -1,0 +1,132 @@
+{
+   "pages": [
+      {
+         "id": 14741205,
+         "slots": [
+            {
+               "runeId": 5246,
+               "runeSlotId": 1
+            },
+            {
+               "runeId": 5246,
+               "runeSlotId": 2
+            },
+            {
+               "runeId": 5246,
+               "runeSlotId": 3
+            },
+            {
+               "runeId": 5246,
+               "runeSlotId": 4
+            },
+            {
+               "runeId": 5246,
+               "runeSlotId": 5
+            },
+            {
+               "runeId": 5246,
+               "runeSlotId": 6
+            },
+            {
+               "runeId": 5246,
+               "runeSlotId": 7
+            },
+            {
+               "runeId": 5246,
+               "runeSlotId": 8
+            },
+            {
+               "runeId": 5246,
+               "runeSlotId": 9
+            },
+            {
+               "runeId": 5316,
+               "runeSlotId": 10
+            },
+            {
+               "runeId": 5316,
+               "runeSlotId": 11
+            },
+            {
+               "runeId": 5316,
+               "runeSlotId": 12
+            },
+            {
+               "runeId": 5316,
+               "runeSlotId": 13
+            },
+            {
+               "runeId": 5316,
+               "runeSlotId": 14
+            },
+            {
+               "runeId": 5316,
+               "runeSlotId": 15
+            },
+            {
+               "runeId": 5316,
+               "runeSlotId": 16
+            },
+            {
+               "runeId": 5316,
+               "runeSlotId": 17
+            },
+            {
+               "runeId": 5316,
+               "runeSlotId": 18
+            },
+            {
+               "runeId": 5290,
+               "runeSlotId": 19
+            },
+            {
+               "runeId": 5290,
+               "runeSlotId": 20
+            },
+            {
+               "runeId": 5290,
+               "runeSlotId": 21
+            },
+            {
+               "runeId": 5290,
+               "runeSlotId": 22
+            },
+            {
+               "runeId": 5290,
+               "runeSlotId": 23
+            },
+            {
+               "runeId": 5290,
+               "runeSlotId": 24
+            },
+            {
+               "runeId": 5290,
+               "runeSlotId": 25
+            },
+            {
+               "runeId": 5290,
+               "runeSlotId": 26
+            },
+            {
+               "runeId": 5290,
+               "runeSlotId": 27
+            },
+            {
+               "runeId": 5343,
+               "runeSlotId": 28
+            },
+            {
+               "runeId": 5343,
+               "runeSlotId": 29
+            },
+            {
+               "runeId": 5343,
+               "runeSlotId": 30
+            }
+         ],
+         "name": "AD Carry",
+         "current": true
+      }
+   ],
+   "summonerId": 332541
+}

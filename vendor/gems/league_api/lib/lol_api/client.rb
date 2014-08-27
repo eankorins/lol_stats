@@ -6,6 +6,8 @@ require 'lol_api/types/item'
 require 'lol_api/types/mastery'
 require 'lol_api/types/history_match'
 require	'lol_api/types/summoner'
+require 'lol_api/types/summoner_masteries'
+require 'lol_api/types/summoner_runes'
 
 module LolApi
 	class Client
@@ -69,6 +71,27 @@ module LolApi
 			response = run_request('global', 'mastery', options, 'static-data', 'euw', id, 'v1.2')
 			Mastery.new(response) if response["id"]
 		end
+
+		def summoner_by_name(name)
+			response = run_request('euw', 'summoner/by-name', {}, '', 'euw', name, 'v1.4')
+			Summoner.new(response[name]) if response[name]
+		end
+
+		def summoner_by_id(id)
+			response = run_request('euw', 'summoner', {}, '', 'euw', id, 'v1.4')
+			Summoner.new(response[id.to_s]) if response[id.to_s]
+		end
+
+		def summoner_masteries(id)
+			response = run_request('euw', 'summoner', {}, '', 'euw', id.to_s << "/masteries", 'v1.4')
+			SummonerMasteries.new(response[id.to_s]) if response[id.to_s]
+		end
+
+		def summoner_runes(id)
+			response = run_request('euw', 'summoner', {}, '', 'euw', id.to_s << "/runes", 'v1.4')
+			SummonerRunes.new(response[id.to_s]) if response[id.to_s]
+		end
+		
 		def run_request(prefix, method, options = {}, interface='static-data' , region = 'euw', id = '', version = 'v1.2')
 			url = "https://#{prefix}.api.pvp.net/api/lol#{("/" << interface) unless interface == ''}/#{region}/#{version}/#{method}/#{id}"
 			connection.request(:get, url, options.merge(api_key: config.api_key))
