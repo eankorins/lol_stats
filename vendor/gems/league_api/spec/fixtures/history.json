@@ -1,0 +1,127 @@
+{
+   "matchVersion": "4.10.0.379",
+   "region": "EUW",
+   "mapId": 1,
+   "season": "SEASON4",
+   "queueType": "RANKED_SOLO_5x5",
+   "matchDuration": 2615,
+   "matchCreation": 1403301139393,
+   "matchId": 1535572376,
+   "participants": [{
+      "stats": {
+         "unrealKills": 0,
+         "item2": 3046,
+         "item1": 3006,
+         "totalDamageTaken": 22233,
+         "item0": 3072,
+         "pentaKills": 0,
+         "sightWardsBoughtInGame": 0,
+         "winner": false,
+         "magicDamageDealt": 931,
+         "wardsKilled": 2,
+         "largestCriticalStrike": 579,
+         "trueDamageDealt": 514,
+         "doubleKills": 0,
+         "physicalDamageDealt": 182899,
+         "tripleKills": 0,
+         "deaths": 6,
+         "firstBloodAssist": false,
+         "magicDamageDealtToChampions": 851,
+         "assists": 6,
+         "visionWardsBoughtInGame": 0,
+         "totalTimeCrowdControlDealt": 184,
+         "champLevel": 18,
+         "physicalDamageTaken": 15602,
+         "totalDamageDealt": 184345,
+         "largestKillingSpree": 4,
+         "inhibitorKills": 0,
+         "minionsKilled": 224,
+         "physicalDamageDealtToChampions": 24291,
+         "towerKills": 0,
+         "quadraKills": 0,
+         "goldSpent": 14005,
+         "totalDamageDealtToChampions": 25153,
+         "goldEarned": 14833,
+         "neutralMinionsKilledTeamJungle": 21,
+         "firstBloodKill": false,
+         "firstTowerKill": false,
+         "wardsPlaced": 1,
+         "trueDamageDealtToChampions": 10,
+         "killingSprees": 1,
+         "firstInhibitorKill": false,
+         "totalUnitsHealed": 2,
+         "kills": 6,
+         "firstInhibitorAssist": true,
+         "neutralMinionsKilledEnemyJungle": 8,
+         "magicDamageTaken": 5948,
+         "largestMultiKill": 1,
+         "totalHeal": 2676,
+         "item4": 3035,
+         "item3": 3102,
+         "item6": 3340,
+         "firstTowerAssist": false,
+         "item5": 1038,
+         "trueDamageTaken": 682,
+         "neutralMinionsKilled": 29
+      },
+      "timeline": {
+         "xpDiffPerMinDeltas": {
+            "zeroToTen": 14.149999999999991,
+            "thirtyToEnd": -22.44999999999999,
+            "tenToTwenty": 5.100000000000023,
+            "twentyToThirty": 15.650000000000034
+         },
+         "damageTakenDiffPerMinDeltas": {
+            "zeroToTen": -6.599999999999987,
+            "thirtyToEnd": 101.55000000000001,
+            "tenToTwenty": 24.19999999999996,
+            "twentyToThirty": -133.85000000000008
+         },
+         "xpPerMinDeltas": {
+            "zeroToTen": 296.9,
+            "thirtyToEnd": 568.9,
+            "tenToTwenty": 406.20000000000005,
+            "twentyToThirty": 430.4
+         },
+         "goldPerMinDeltas": {
+            "zeroToTen": 233.3,
+            "thirtyToEnd": 414.8,
+            "tenToTwenty": 355.4,
+            "twentyToThirty": 266.4
+         },
+         "role": "DUO_CARRY",
+         "creepsPerMinDeltas": {
+            "zeroToTen": 5.9,
+            "thirtyToEnd": 2.9,
+            "tenToTwenty": 7,
+            "twentyToThirty": 3.8
+         },
+         "csDiffPerMinDeltas": {
+            "zeroToTen": -0.3500000000000001,
+            "thirtyToEnd": -1.5999999999999999,
+            "tenToTwenty": 0.5,
+            "twentyToThirty": 0.5
+         },
+         "damageTakenPerMinDeltas": {
+            "zeroToTen": 260.3,
+            "thirtyToEnd": 580.3,
+            "tenToTwenty": 402.6,
+            "twentyToThirty": 608.5
+         },
+         "lane": "BOTTOM"
+      },
+      "spell2Id": 4,
+      "participantId": 0,
+      "championId": 222,
+      "teamId": 200,
+      "spell1Id": 7
+   }],
+   "participantIdentities": [{
+      "player": {
+         "profileIcon": 28,
+         "matchHistoryUri": "/v1/stats/player_history/EUW1/338263",
+         "summonerName": "furryballs"
+      },
+      "participantId": 0
+   }]
+}

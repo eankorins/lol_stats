@@ -16,5 +16,10 @@ describe LolApi::Client do
 		subject { mastery }
 		it { should be_kind_of(LolApi::Mastery)}
 	end
+	describe 'returns history' do
+		history = LolApi.history_by_id(332541)
+		subject { history }
+		it { should_not be_empty }
+	end
 end
 
