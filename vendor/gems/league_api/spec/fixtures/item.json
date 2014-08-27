@@ -1,0 +1,62 @@
+{
+   "tags": [
+      "SpellDamage",
+      "NonbootsMovement",
+      "CooldownReduction",
+      "Slow",
+      "Active",
+      "Vision"
+   ],
+   "plaintext": "Summon wraiths to slow and reveal enemy champions",
+   "stats": {
+      "FlatMagicDamageMod": 80,
+      "PercentMovementSpeedMod": 0.06
+   },
+   "image": {
+      "w": 48,
+      "full": "3290.png",
+      "sprite": "item2.png",
+      "group": "item",
+      "h": 48,
+      "y": 0,
+      "x": 144
+   },
+   "colloq": "spooky ghosts",
+   "from": [
+      "3108",
+      "3113"
+   ],
+   "depth": 3,
+   "id": 3290,
+   "sanitizedDescription": "+80 Ability Power +10% Cooldown Reduction +6% Movement Speed UNIQUE Passive - Trap Detection: Nearby stealthed enemy traps are revealed. UNIQUE Active - Hunt: Summons up to 2 invulnerable ghosts that seek out the two nearest enemy champions for 6 seconds. If a ghost reaches its target, it reveals the target and reduces their Movement Speed by 40% for 2.5 seconds. If a ghost cannot find a target, it tries to return to the caster. Ghosts that successfully return in this way reduce the item's cooldown by 20 seconds (60 second cooldown).",
+   "maps": {
+      "1": false,
+      "12": false
+   },
+   "requiredChampion": "Rengar",
+   "consumeOnFull": false,
+   "consumed": false,
+   "description": "<stats>+80 Ability Power<br>+10% Cooldown Reduction<br>+6% Movement Speed<\/stats><br><br><unique>UNIQUE Passive - Trap Detection:<\/unique> Nearby stealthed enemy traps are revealed.<br><active>UNIQUE Active - Hunt:<\/active> Summons up to 2 invulnerable ghosts that seek out the two nearest enemy champions for 6 seconds. If a ghost reaches its target, it reveals the target and reduces their Movement Speed by 40% for 2.5 seconds.<br><br>If a ghost cannot find a target, it tries to return to the caster. Ghosts that successfully return in this way reduce the item's cooldown by 20 seconds (60 second cooldown).",
+   "name": "Twin Shadows",
+   "hideFromAll": false,
+   "inStore": false,
+   "specialRecipe": 3169,
+   "group": "item",
+   "stacks": 3,
+   "rune": {
+         "isRune": false,
+         "tier": "1",
+         "type": "red"
+      },
+   "into": [
+            "3046",
+            "3078",
+            "3087"
+         ],
+   "gold": {
+      "total": 2400,
+      "purchasable": true,
+      "sell": 1680,
+      "base": 630
+   }
+}

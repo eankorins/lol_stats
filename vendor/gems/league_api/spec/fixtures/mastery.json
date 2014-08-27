@@ -1,0 +1,25 @@
+{
+   "ranks": 3,
+   "id": 4353,
+   "sanitizedDescription": [
+      "+2% Cooldown Reduction and reduces the cooldown of Activated Items by 4%",
+      "+3.5% Cooldown Reduction and reduces the cooldown of Activated Items by 7%",
+      "+5% Cooldown Reduction and reduces the cooldown of Activated Items by 10%"
+   ],
+   "description": [
+      "+2% Cooldown Reduction and reduces the cooldown of Activated Items by 4%",
+      "+3.5% Cooldown Reduction and reduces the cooldown of Activated Items by 7%",
+      "+5% Cooldown Reduction and reduces the cooldown of Activated Items by 10%"
+   ],
+   "name": "Intelligence",
+   "image": {
+      "w": 48,
+      "full": "4353.png",
+      "sprite": "mastery0.png",
+      "group": "gray_mastery",
+      "h": 48,
+      "y": 240,
+      "x": 240
+   },
+   "prereq": "0"
+}
