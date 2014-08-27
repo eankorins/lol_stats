@@ -1,4 +1,4 @@
-
+require 'lol_api/types/dtos/image'
 module LolApi
 	class Item
 		attr_reader :raw_item
@@ -44,7 +44,7 @@ module LolApi
 		end
 
 		def gold
-			raw_item['gold']
+			LolApi::Gold.new(raw_item['gold'])
 		end
 
 		def group
@@ -56,7 +56,7 @@ module LolApi
 		end
 
 		def image
-			raw_item['image']
+			LolApi::Image.new(raw_item['image'])
 		end
 
 		def in_store 
@@ -99,4 +99,28 @@ module LolApi
 			raw_item['tags']
 		end
 	end
+
+	class Gold
+		attr_reader :raw_gold
+
+		def initialize(raw_gold)
+			@raw_gold = raw_gold
+		end
+
+		def base 
+			raw_gold['base']
+		end
+
+		def purchasable 
+			raw_gold['purchasable']
+		end
+
+		def sell
+			raw_gold['sell']
+		end
+
+		def total
+			raw_gold['total']
+		end
+	end	
 end

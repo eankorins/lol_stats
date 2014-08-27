@@ -6,7 +6,7 @@ describe LolApi::Summoner do
 	end
 	subject { @summoner }
 
-	it { should be_kind_of(LoLApi::Summoner) }
+	it { should be_kind_of(LolApi::Summoner) }
 	it { should respond_to(:id) }
 	it { should respond_to(:name) }
 	it { should respond_to(:profile_icon_id) }

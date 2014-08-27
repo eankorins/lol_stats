@@ -1,5 +1,5 @@
 require 'lol_api/types/dtos/participant_identity'
-
+require 'lol_api/types/dtos/participant'
 module LolApi
 	class HistoryMatch
 		attr_reader :raw_match
@@ -37,7 +37,11 @@ module LolApi
 		end
 
 		def participants
-			raw_match['participants']
+			if participants = raw_match['participants']
+				participants.map do |participant|
+					Participant.new(participant)
+				end
+			end
 		end
 
 		def queue_type
@@ -53,4 +57,5 @@ module LolApi
 		end
 
 	end
+
 end

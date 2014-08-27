@@ -56,4 +56,41 @@ describe LolApi::Item do
 		its(:stats) { should have_key("FlatMagicDamageMod") }
 		its(:tags) { should include("SpellDamage") }
 	end
+
+	describe 'gold' do
+		subject { @item.gold }
+
+		it { should respond_to(:base) }
+		it { should respond_to(:purchasable) }
+		it { should respond_to(:sell) }
+		it { should respond_to(:total) }
+
+		describe "should return" do
+			its(:base) { should eq 630 }
+			its(:purchasable) { should eq true }
+			its(:sell) { should eq 1680 }
+			its(:total) { should eq 2400 }
+		end
+	end
+
+	describe 'image' do
+		subject { @item.image }
+		it { should respond_to(:full) }
+		it { should respond_to(:group) } 
+		it { should respond_to(:height) }
+		it { should respond_to(:sprite) } 
+		it { should respond_to(:width) }
+		it { should respond_to(:x) }
+		it { should respond_to(:y) }
+
+		describe "should return" do
+			its(:full) { should eq '3290.png' }
+			its(:group) { should eq 'item' }
+			its(:height) { should eq 48 }
+			its(:sprite) { should eq 'item2.png' }
+			its(:width) { should eq 48 }
+			its(:x) { should eq 144 } 
+			its(:y) { should eq 0 }
+		end
+	end
 end
