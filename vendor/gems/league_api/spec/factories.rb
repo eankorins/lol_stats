@@ -22,6 +22,10 @@ FactoryGirl.define do
 		skip_create
 		initialize_with { new(read_fixture("history.json")) } 
 	end
+	factory :match, :class => LolApi::Match do |f|
+		skip_create
+		initialize_with { new(read_fixture("match.json")) }
+	end
 	factory :summoner_masteries, :class => LolApi::SummonerMasteries do |f|
 		skip_create
 		initialize_with { new(read_fixture("summoner_masteries.json")) }
