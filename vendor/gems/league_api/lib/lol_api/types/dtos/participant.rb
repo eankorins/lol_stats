@@ -6,8 +6,16 @@ module LolApi
 			@raw_participant = raw_participant
 		end
 
+		def masteries
+			raw_participant['masteries']
+		end
+
 		def champion_id
 			raw_participant['championId']
+		end
+
+		def runes
+			raw_participant['runes']
 		end
 
 		def participant_id
@@ -31,7 +39,7 @@ module LolApi
 		end
 
 		def timeline
-			Timeline.new(raw_participant['timeline'])
+			ParticipantTimeline.new(raw_participant['timeline'])
 		end
 	end
 
@@ -277,7 +285,7 @@ module LolApi
 			raw_stats['winner']
 		end	
 	end
-	class Timeline
+	class ParticipantTimeline
 		attr_reader :raw_timeline
 
 		def initialize(raw_timeline)
